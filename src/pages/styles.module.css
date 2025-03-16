@@ -2,9 +2,10 @@
    max-width: 70%;
     margin: 100px auto;
     padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: darkslategrey;
+    border: 4px solid #ccc;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: #7DA0CA;
 
 }
 
@@ -16,7 +17,7 @@
 }
 
 .profilepage{
-    background-color: darkslategrey;
+    background-color: #7DA0CA;
     border-radius: 8px;
     padding: 25px;
 
@@ -47,7 +48,7 @@ form{
 
 .pagebtn{
     padding: 10px 10px;
-    background-color: darkslateblue;
+    background-color: #052659;
     color:white;
     border:none;
     border-radius: 5px;
@@ -59,7 +60,7 @@ form{
 
 
 .settingpgcontainer{
-    background-color: darkslategrey;
+    background-color: #7DA0CA;
     border-radius: 8px;
     padding: 30px;
 }
@@ -79,7 +80,7 @@ form{
 .settingbtn{
     
         padding: 10px 10px;
-        background-color: darkslateblue;
+        background-color: #052659;
         color:white;
         border:none;
         border-radius: 5px;

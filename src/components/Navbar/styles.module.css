@@ -1,7 +1,7 @@
 
 .navbar{
     padding: 10px;
-    background-color: gainsboro;
+    background-color: #7DA0CA;
     margin-bottom: 20px;
     border-radius: 8px;
 }
@@ -18,7 +18,7 @@
 }
 .pagebtnone{
     padding: 5px 5px;
-    background-color: darkslateblue;
+    background-color: #052659;
     color:white;
     border:none;
     border-radius: 5px;

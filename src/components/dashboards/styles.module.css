@@ -1,6 +1,8 @@
 .dashboardcontainer{
     align-content: center;
-    background: darkslategrey;
+    background-color: #7DA0CA;
+    border: 4px solid #ccc;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
     padding: 25px;
     border-radius: 8px;
     margin: 20px;

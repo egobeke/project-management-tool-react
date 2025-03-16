@@ -6,9 +6,9 @@ const AdminDashboard: React.FC = () => {
       <div className={styles.dashboardcontainer}>
         <h2>Admin</h2>
             <div className={styles.Adminbuttons}>
-                <button>Manage Users</button>
-                <button>Settings</button>
-                <button>View Logs</button>
+                <button style={{ margin: "5px", backgroundColor: "gainsboro", padding: "7px", borderRadius: "5px", border:"none"}}>Manage Users</button>
+                <button style={{ margin: "5px", backgroundColor: "gainsboro", padding: "7px", borderRadius: "5px", border:"none"}}>Settings</button>
+                <button style={{ margin: "5px", backgroundColor: "gainsboro", padding: "7px", borderRadius: "5px", border:"none"}}>View Logs</button>
             </div>
             <div>
                 <h3>Project Statistics</h3>

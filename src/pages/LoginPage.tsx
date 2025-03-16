@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth, UserRole } from "../contexts/AuthContext";
+import styles from "./styles.module.css"
  
 const LoginPage: React.FC=() => {
     const [username, setUsername] = useState("");
@@ -23,21 +24,23 @@ const handleSubmit = (e: React.FormEvent) => {
 };
 
 return(
-    <div>
-        <h2>Login To Project Management Tool </h2>
+    <div className={styles.pagecontainer}>
+        <h2>PROJECT MANAGEMENT TOOL</h2>
+        <p style={{fontSize:25, fontWeight:500,}}>Login</p>
         <form onSubmit={handleSubmit}>
-            <div>
+            <div className={styles.labelname}>
                 <label>Username:</label><input type="text" value={username} onChange={(e) => setUsername(e.target.value)}/>
             </div>
             <div>
                 <label>Role:</label>
                 <select value={role} onChange={ (e) => setRole(e.target.value as UserRole)}>
+                    <option value=""></option>
                     <option value="Admin">Admin</option>
                     <option value="Editor">Editor</option>
                     <option value="Viewer">Viewer</option>
                 </select>
             </div>
-            <button type="submit">Login</button>
+            <button type="submit" className={styles.pagebtn}>Login</button>
         </form>
     </div>
 );

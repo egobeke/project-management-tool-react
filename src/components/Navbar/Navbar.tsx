@@ -21,15 +21,15 @@ const Navbar: React.FC = () => {
                     <span>Project Management Tool</span>
                 </div>
                 <div className={styles.link}>
-                    <Link to="/login">Login</Link>
-                    <Link to="/dashboard">Dashboard</Link>
-                    <Link to="/profile">Profile</Link>
+                    <Link to="/login" style={{color:"black", textDecoration:"none"}}>Login</Link>
+                    <Link to="/dashboard" style={{color:"black", textDecoration:"none"}}>Dashboard</Link>
+                    <Link to="/profile" style={{color:"black", textDecoration:"none"}}>Profile</Link>
                     {/* only Admin users can access settings */}
-                    {user.role === "Admin" && <Link to="/settings">Settings</Link>}
+                    {user.role === "Admin" && <Link to="/settings" style={{color:"black", textDecoration:"none"}}>Settings</Link>}
                     <div>
                         <span>{user.username} ({user.role})</span>
                         </div>
-                    <button onClick={handleLogout}>Logout</button>
+                    <button onClick={handleLogout} className={styles.pagebtnone}>Logout</button>
                 </div>
             </div>
 

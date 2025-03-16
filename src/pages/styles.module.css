@@ -1,0 +1,93 @@
+.pagecontainer{
+   max-width: 70%;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: darkslategrey;
+
+}
+
+.pagecontainer h2 , p {
+    text-align: center;
+}
+.pagecontainer h2{
+    margin-top: 20px;
+}
+
+.profilepage{
+    background-color: darkslategrey;
+    border-radius: 8px;
+    padding: 25px;
+
+}
+
+
+form{
+    display: grid;
+    justify-content:center;
+    
+}
+.labelname{
+   margin-bottom: 15px; 
+}
+
+ label {
+    display:block;
+    margin-bottom: 5px;
+    font-size: 18px;
+
+}
+ input{
+    width:100%;
+    padding:8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.pagebtn{
+    padding: 10px 10px;
+    background-color: darkslateblue;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    margin-top: 40px;
+   
+
+
+}
+
+
+.settingpgcontainer{
+    background-color: darkslategrey;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.notification{
+    display: flex;
+    align-items: center;   
+    gap: 8px;
+}
+
+.notificationcheckbox{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.settingbtn{
+    
+        padding: 10px 10px;
+        background-color: darkslateblue;
+        color:white;
+        border:none;
+        border-radius: 5px;
+        margin-top: 30px;
+     
+}
+.btncontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -14,8 +14,14 @@
     display: flex;
     gap:20px;
     align-items: center;
-    text-decoration: none !important;
-    color: black;
-    cursor: pointer;
     
+}
+.pagebtnone{
+    padding: 5px 5px;
+    background-color: darkslateblue;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    font-size: 12px;
+
 }

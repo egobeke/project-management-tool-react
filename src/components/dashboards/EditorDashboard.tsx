@@ -15,9 +15,8 @@ const EditorDashboard: React.FC =() => {
                     </ul>
                 </div>
                 <div>
-                    <h3>Edit Content</h3>
-                    <button className={styles.btn}>New Project</button>
-                    <button>Edit Existing Project</button>
+                    <button style={{ margin: "5px", backgroundColor: "gainsboro", padding: "7px", borderRadius: "5px", border:"none"}}>New Project</button>
+                    <button style={{ margin: "5px", backgroundColor: "gainsboro", padding: "7px", borderRadius: "5px", border:"none"}}>Edit Existing Project</button>
                 </div>
             </div>
     );

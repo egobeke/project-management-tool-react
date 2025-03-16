@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./styles.module.css"
 
 const SettingsPage: React.FC = () => {
     return (
@@ -6,15 +7,16 @@ const SettingsPage: React.FC = () => {
             <h1>Settings Page</h1>
             <div>
             <h2>Admin Settings</h2>
-            <div>
+            <div className={styles.settingpgcontainer}>
             <h3>General Settings</h3>
             <div>
-                <label>Website Name:</label><input type="text" defaultValue="Project Management Tool"/>
+                <label>Website Name:</label><input type="text" defaultValue="Project Management Tool" style={{width:300,padding:8}}/>
             </div>
             </div>
             </div>
-            <h3>Advanced Settings</h3>
             <div>
+            <h3>Advanced Settings</h3>
+            <div className={styles.settingpgcontainer}>
                 <label>Theme:</label>
                 <select>
                     <option>Dark</option>
@@ -23,15 +25,18 @@ const SettingsPage: React.FC = () => {
                     <option>System Default</option>
                 </select>
             </div>
+            </div>
             <div>
                 <h4>Other Settings</h4>
-                <div>
-                    <label>
-                        <input type="checkbox" defaultChecked/>Turn on notification
+                <div className={styles.settingpgcontainer}>
+                    <label className={styles.notification}>
+                        <input type="checkbox" defaultChecked className={styles.notificationcheckbox}/>Turn on notification
                     </label>
                 </div>
             </div>
-            <button>Save Settings</button>
+            <div className={styles.btncontainer}>
+            <button className={styles.settingbtn}>Save Settings</button>
+            </div>
         </div>
     );
 };
